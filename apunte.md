@@ -27,3 +27,9 @@ Generalmente, hay muy poca documentación
 cd render_function
 vue serve App.vue
 ```
+
+**JSX** nos permite definir la estructura de nuestros componentes con una sintaxis similar a HTML con todos los beneficios de JavaScript. Recuerda que JSX es una syntax sugar para escribir componentes con createElement y resulta muy útil o familiar si estamos familiarizados con React.
+
+
+##Utilizando Slots con Render Functions y JSX
+Los Slots nos ayudan a crear componentes reutilizables y personalizables al mismo tiempo, nos permiten definir el contenido de nuestros componentes para evitar el trabajo de crear un nuevo archivo por cada cambio en los componentes. Son muy útiles e importantes en el mundo de Vue.js.
