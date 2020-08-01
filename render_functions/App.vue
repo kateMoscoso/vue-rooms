@@ -24,8 +24,8 @@ export default {
   methods: {
     toggleHandler() {
       this.show = !this.show;
-    }
-  }
+    },
+  },
 };
 </script>
 

@@ -16,7 +16,7 @@ export default {
       <p>{this.message}</p>
       <button onClick={this.clickCancelHandler}>Cancel</button>
       <button onClick={this.clickOkHandler}>Ok</button>
-    </div> : null
+    </div> : null;
   },
   methods: {
     clickCancelHandler() {
@@ -24,7 +24,7 @@ export default {
     },
     clickOkHandler() {
       console.log('Click on Ok');
-    }
-  }
-}
+    },
+  },
+};
 </script>
